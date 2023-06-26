@@ -3,8 +3,8 @@
     "description": "An addon for Statamic 3 to manage and customize any meta tag.",
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "App\\Http\\Controllers\\": "app/Http/Controllers/",
+            "App\\": "src/",
+            "App\\Http\\Controllers\\": "src/Http/Controllers/",
             "rndrmu\\StatamicMetatags\\": "src/"
         }
     },
