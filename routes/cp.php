@@ -5,7 +5,7 @@ use rndrmu\StatamicMetatags\Http\Controllers\DefaultsController;
 use rndrmu\StatamicMetatags\Tags\MetatagsTags;
 
 // Laravel 9 way
-Route::view('metatags', 'metatags.index')->name('metatags.index');
+Route::view('metatags')->name('metatags.index');
 
 
 // Laravel 9 way
