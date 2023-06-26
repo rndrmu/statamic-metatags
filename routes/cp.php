@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\SettingsController;
-use App\Http\Controllers\DefaultsController;
+use Http\Controllers\SettingsController;
+use Http\Controllers\DefaultsController;
 use Tags\MetatagsTags;
 
 Route::view('metatags', 'statamic-metatags::index')->name('metatags.index');
