@@ -18,7 +18,7 @@ class DefaultsController extends Controller
             ->addValues(DefaultMetatags::make()->values())
             ->preProcess();
 
-        return view('statamic-metatags::defaults.edit', [
+        return view('defaults.edit', [
             'title' => __('Defaults'),
             'action' => cp_route('metatags.defaults.update'),
             'blueprint' => $blueprint->toPublishArray(),
