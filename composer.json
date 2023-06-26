@@ -3,7 +3,9 @@
     "description": "An addon for Statamic 3 to manage and customize any meta tag.",
     "autoload": {
         "psr-4": {
-          "rndrmu\\StatamicMetatags\\": "src"
+            "App\\": "app/",
+            "App\\Http\\Controllers\\": "app/Http/Controllers/",
+            "rndrmu\\StatamicMetatags\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +21,7 @@
         },
         "laravel": {
             "providers": [
-              "rndrmu\\StatamicMetatags\\ServiceProvider"
+                "rndrmu\\StatamicMetatags\\ServiceProvider"
             ]
         }
     },
