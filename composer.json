@@ -1,5 +1,5 @@
 {
-    "name": "gioppy/statamic-metatags",
+    "name": "rndrmu/statamic-metatags",
     "description": "An addon for Statamic 3 to manage and customize any meta tag.",
     "autoload": {
         "psr-4": {
@@ -8,8 +8,8 @@
     },
     "authors": [
         {
-            "name": "Giovanni Buffa",
-            "email": "tech@giovannibuffa.it"
+            "name": "rei",
+            "email": "hi@rndmru.moe"
         }
     ],
     "extra": {
