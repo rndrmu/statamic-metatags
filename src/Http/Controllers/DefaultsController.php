@@ -1,6 +1,6 @@
 <?php
 
-namespace rndrmu\StatamicMetatags\Http\Controllers;
+namespace App\Http\Controllers;
 
 use rndrmu\StatamicMetatags\DefaultMetatags;
 use rndrmu\StatamicMetatags\Metatags;
