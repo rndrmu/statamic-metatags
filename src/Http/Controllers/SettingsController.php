@@ -19,7 +19,7 @@ class SettingsController extends Controller {
       ->addValues(Settings::make()->values())
       ->preProcess();
 
-    return view('settings.edit', [
+    return view('statamic-metatags::settings.edit', [
       'title' => __('Settings'),
       'action' => cp_route('metatags.settings.update'),
       'blueprint' => $blueprint->toPublishArray(),
