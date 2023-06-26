@@ -1,6 +1,6 @@
 # Statamic Meta tags
 
-This is an add-on for Statamic 3. It gives the ability to manage and customize almost every created meta tags!
+This is an add-on for Statamic 4. It gives the ability to manage and customize almost every created meta tags!
 
 ![Meta Tags index](https://web.giovannibuffa.it/github/statamic_metatags_01.png)
 ![Default values](https://web.giovannibuffa.it/github/statamic_metatags_02.png)
