@@ -1,6 +1,6 @@
 <?php
 
-namespace Gioppy\StatamicMetatags;
+namespace rndrmu\StatamicMetatags;
 
 use Statamic\Facades\CP\Nav;
 use Statamic\Providers\AddonServiceProvider;

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Gioppy\StatamicMetatags\Tags;
+namespace rndrmu\StatamicMetatags\Tags;
 
 
-use Gioppy\StatamicMetatags\DefaultMetatags;
-use Gioppy\StatamicMetatags\Settings;
+use rndrmu\StatamicMetatags\DefaultMetatags;
+use rndrmu\StatamicMetatags\Settings;
 use Illuminate\Support\Str;
 use Statamic\Facades\Asset;
 use Statamic\Fields\Value;

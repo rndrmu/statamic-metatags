@@ -1,9 +1,9 @@
 <?php
 
-namespace Gioppy\StatamicMetatags\Http\Controllers;
+namespace rndrmu\StatamicMetatags\Http\Controllers;
 
-use Gioppy\StatamicMetatags\Metatags;
-use Gioppy\StatamicMetatags\Settings;
+use rndrmu\StatamicMetatags\Metatags;
+use rndrmu\StatamicMetatags\Settings;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Statamic\Facades\AssetContainer;

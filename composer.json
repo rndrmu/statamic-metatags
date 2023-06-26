@@ -3,7 +3,7 @@
     "description": "An addon for Statamic 3 to manage and customize any meta tag.",
     "autoload": {
         "psr-4": {
-          "Gioppy\\StatamicMetatags\\": "src"
+          "rndrmu\\StatamicMetatags\\": "src"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
         },
         "laravel": {
             "providers": [
-              "Gioppy\\StatamicMetatags\\ServiceProvider"
+              "rndrmu\\StatamicMetatags\\ServiceProvider"
             ]
         }
     },

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Gioppy\StatamicMetatags\Http\Controllers;
+namespace rndrmu\StatamicMetatags\Http\Controllers;
 
 
-use Gioppy\StatamicMetatags\DefaultMetatags;
-use Gioppy\StatamicMetatags\Metatags;
+use rndrmu\StatamicMetatags\DefaultMetatags;
+use rndrmu\StatamicMetatags\Metatags;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Statamic\Facades\Blueprint;

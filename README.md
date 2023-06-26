@@ -28,11 +28,11 @@ If you think that some meta tags are missing, open a PR!
 
 If you are on Statamic < 3.3 use the latest release of v1 branch:
 
-```composer require gioppy/statamic-metatags "^1.0.4"```
+```composer require rndrmu/statamic-metatags "^1.0.4"```
 
 If you are on Statamic >= 3.3 use v2 branch:
 
-```composer require gioppy/statamic-metatags```
+```composer require rndrmu/statamic-metatags```
 
 ## How to use
 

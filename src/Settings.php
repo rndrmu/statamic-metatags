@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Gioppy\StatamicMetatags;
+namespace rndrmu\StatamicMetatags;
 
 
 use Illuminate\Support\Collection;
