@@ -1,7 +1,7 @@
 <?php
 
-use Http\Controllers\SettingsController;
-use Http\Controllers\DefaultsController;
+use App\Http\Controllers\SettingsController;
+use App\Http\Controllers\DefaultsController;
 use Tags\MetatagsTags;
 
 
