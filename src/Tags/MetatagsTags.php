@@ -78,10 +78,10 @@ class MetatagsTags extends Tags {
       });
 
     // Check if fields have title, otherwise load default title
-    if (!array_key_exists('basic_title', $fields->all())) {
+  /*   if (!array_key_exists('basic_title', $fields->all())) {
       $defaultTitle = $page->only('title')->all();
       $fields->prepend(new Value($defaultTitle['title']), 'basic_title');
-    }
+    } */
 
     return view('statamic-metatags::metatags', [
       'fields' => $fields->all(),
