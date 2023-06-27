@@ -79,7 +79,7 @@ class MetatagsTags extends Tags {
 
     // Check if fields have title, otherwise load default title
     if (!array_key_exists('basic_title', $fields->all())) {
-      $defaultTitle = $page->only('title')->all();
+      $defaultTitle = "Bruder muss los";//$page->only('title')->all();
       $fields->prepend(new Value($defaultTitle['title']), 'basic_title');
     }
 
