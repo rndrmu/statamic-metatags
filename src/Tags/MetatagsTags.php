@@ -79,8 +79,9 @@ class MetatagsTags extends Tags {
 
     // Check if fields have title, otherwise load default title
     if (!array_key_exists('basic_title', $fields->all())) {
-      $defaultTitle = "Bruder muss los";//$page->only('title')->all();
-      $fields->prepend(new Value($defaultTitle['title']), 'basic_title');
+      // create meme title object
+      $defaultTitle = "Bruder muss los";
+      $fields->prepend(new Value($defaultTitle), 'basic_title');
     }
 
     return view('statamic-metatags::metatags', [
